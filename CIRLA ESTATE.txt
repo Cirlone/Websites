@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CIrla Estate - Real Estate Company in Craiova</title>
+	<!-- Add CSS styles here -->
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+
+		nav {
+			background-color: #f2f2f2;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 10px;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+
+		nav li {
+			margin-right: 10px;
+		}
+
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 5px;
+			border-radius: 5px;
+		}
+
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			grid-gap: 20px;
+		}
+
+		.property {
+			background-color: #f2f2f2;
+			padding: 10px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		.property img {
+			max-width: 100%;
+			border-radius: 5px;
+		}
+
+		.property h3 {
+			margin-top: 10px;
+			margin-bottom: 5px;
+			font-size: 1.2rem;
+			font-weight: bold;
+		}
+
+		.property p {
+			margin: 0;
+			font-size: 1rem;
+		}
+
+		.property a {
+			display: block;
+			margin-top: 10px;
+			padding: 5px;
+			background-color: #333;
+			color: #fff;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+
+		.property a:hover {
+			background-color: #fff;
+			color: #333;
+			border: 1px solid #333;
+		}
+
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>CIrla Estate</h1>
+		<p>Real Estate Company in Craiova</p>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Properties</a></li>
+			<li><a href="#">About Us</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+		<div>
+<img src="images logo.png" alt="CIrla Estate Logo" width="100">
+	</div>
+</nav>
+
+<div class="container">
+	<div class="property">
+		<img src="images/property1.jpg" alt="Property 1">
+		<h3>Property 1</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, metus eget eleifend dictum, velit enim cursus erat, eu tincidunt nulla odio et sapien.</p>
+		<a href="#">View Details</a>
+	</div>
+	<div class="property">
+		<img src="images/property2.jpg" alt="Property 2">
+		<h3>Property 2</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, metus eget eleifend dictum, velit enim cursus erat, eu tincidunt nulla odio et sapien.</p>
+		<a href="#">View Details</a>
+	</div>
+	<div class="property">
+		<img src="images/property3.jpg" alt="Property 3">
+		<h3>Property 3</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, metus eget eleifend dictum, velit enim cursus erat, eu tincidunt nulla odio et sapien.</p>
+		<a href="#">View Details</a>
+	</div>
+	<div class="property">
+		<img src="images/property4.jpg" alt="Property 4">
+		<h3>Property 4</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sagittis, metus eget eleifend dictum, velit enim cursus erat, eu tincidunt nulla odio et sapien.</p>
+		<a href="#">View Details</a>
+	</div>
+</div>
+
+<footer>
+	<p>&copy; 2023 CIrla Estate. All rights reserved.</p>
+	<p>Contact us: 123 Main St, Craiova, Romania | info@cirlaestate.com | +40 123 456 789</p>
+</footer>
+</body>
+</html>

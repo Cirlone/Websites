@@ -1,0 +1,66 @@
+ {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: right;
+}
+
+.left-container {
+	flex-basis: 50%;
+	padding: 50px;
+	color: white;
+}
+
+.right-container {
+	flex-basis: 50%;
+	padding: 50px;
+}
+
+.purple-section {
+	background-image: url('https://static.vecteezy.com/system/resources/previews/005/489/284/original/beautiful-purple-color-gradient-background-free-vector.jpg'); 
+  background-size: cover;
+}
+
+.purple-section-text {
+	padding: 50px;
+	color: white;
+}
+
+.white-section {
+	padding: 50px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-bottom: 20px;
+} 

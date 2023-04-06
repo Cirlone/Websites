@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cirla Estate - Properties Map</title>
+    <style>
+      #map {
+        height: 500px;
+        width: 100%;
+      }
+    </style>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d713.6239857043377!2d23.76578566206774!3d44.32031189719424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4752d9d46373aa0b%3A0x2750b6ca8a6a316f!2sBrestei%2C%20Craiova!5e0!3m2!1sro!2sro!4v1679425578262!5m2!1sro!2sro" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<script <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCX85GFtO74_RowwpWKtNM3m7dmpXBzHag&callback=initMap"></script>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: { lat: 44.3181, lng: 23.8099 },
+        });
+        var marker1 = new google.maps.Marker({
+          position: { lat: 44.3170, lng: 23.8088 },
+          map: map,
+          title: "Property 1",
+        });
+        var marker2 = new google.maps.Marker({
+          position: { lat: 44.3190, lng: 23.8077 },
+          map: map,
+          title: "Property 2",
+        });
+        var marker3 = new google.maps.Marker({
+          position: { lat: 44.3160, lng: 23.8123 },
+          map: map,
+          title: "Property 3",
+        });
+      }
+    </script>
+  </head>
+  <body onload="initMap()">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="map.html">Properties Map</a></li>
+      </ul>
+    </nav>
+    <main>
+      <header>
+        <h1>Properties Map</h1>
+      </header>
+      <div id="map"></div>
+    </main>
+  </body>
+</html>
