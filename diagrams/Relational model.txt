@@ -1,0 +1,12 @@
+Users table:
+
+UserID (Primary Key)
+FirstName
+LastName
+Email
+Password
+RoleID (Foreign Key referencing Roles.RoleID)
+Roles table:
+
+RoleID (Primary Key)
+RoleName

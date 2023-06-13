@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Signup</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-image: url("euu.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+        color: #fff;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      input[type="email"],
+      input[type="password"],
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+      }
+
+      button[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+
+      button[type="submit"]:hover {
+        background-color: #fff;
+        color: #333;
+        border: 1px solid #333;
+      }
+
+      .forgot-password {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .forgot-password a {
+        color: #fff;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit" onclick="window.location.href = 'MAINPAGE1.html'">Login</button>
+
+      <div class="forgot-password">
+        <a href="#">Forgot password?</a>
+      </div>
+    </form>
+
+    <h1>Signup</h1>
+<form method="post" asp-action="Index">
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required>
+  <button type="submit">Login</button>
+  <div class="forgot-password">
+    <a href="#">Forgot password?</a>
+  </div>
+</form>
+  </body>
+</html>

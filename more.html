@@ -1,53 +1,52 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Home</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title>Harta Europei</title>
+	<link rel="stylesheet" type="text/css" href="styless.css">
 </head>
 <body>
-	<div class="purple-section">
-		<div class="container">
-			<div class="left-container">
-				<h1>Hello, homeowner</h1>
-				<p>We created My Home just for you.</p>
-				<p>Already found your home?</p>
-				<a href="#">Sign in</a>
-				<ul>
-					<li>Keep an eye on your property estimate</li>
-					<li>Compare your home to the neighbours'</li>
-					<li>Get updates when things change</li>
-				</ul>
-				<p>First, let's find your home</p>
-				<form>
-					<label for="postcode">Enter postcode:</label>
-					<input type="text" id="postcode" name="postcode">
-				</form>
-			</div>
-			<div class="right-container">
-				<img src="11.jpg" alt="A picture of a house">
-			</div>
+	<header>
+		<h1>Harta Europei</h1>
+		<nav>
+			<ul>
+				<li><a href="MAINPAGE.html">Home</a></li>
+				<li><a href="about.html">About us</a></li>
+				<li><a href="contact.html">Contact us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div id="map">
+			<svg viewBox="0 0 600 400">
+				<!-- Romania -->
+				<path class="country" d="M 60 120 L 140 120 L 140 200 L 60 200 Z" />
+				<text class="country-label" x="100" y="160">România</text>
+
+				<!-- Serbia -->
+				<path class="country" d="M 140 120 L 220 120 L 220 200 L 140 200 Z" />
+				<text class="country-label" x="180" y="160">Serbia</text>
+
+				<!-- Bosnia and Herzegovina -->
+				<path class="country" d="M 220 120 L 300 120 L 300 200 L 220 200 Z" />
+				<text class="country-label" x="260" y="160">Bosnia și Herțegovina</text>
+
+				<!-- Croatia -->
+				<path class="country" d="M 300 120 L 380 120 L 380 200 L 300 200 Z" />
+				<text class="country-label" x="340" y="160">Croația</text>
+
+				<!-- Montenegro -->
+				<path class="country" d="M 380 120 L 460 120 L 460 200 L 380 200 Z" />
+				<text class="country-label" x="420" y="160">Muntenegru</text>
+
+				<!-- Albania -->
+				<path class="country" d="M 460 120 L 540 120 L 540 200 L 460 200 Z" />
+				<text class="country-label" x="500" y="160">Albania</text>
+			</svg>
 		</div>
-		<div class="purple-section-text">
-			<h2>Keep track of your estimate</h2>
-			<p>Get automatic email updates when your property estimate changes.</p>
-<div class="center-text">
-
-			<h2>Compare your home to others</h2>
-			<p>Check out the sold prices of other homes nearby and see which local properties are currently up for sale.</p>
-</div>
-<div class="right-text">
- 
-			<h2>Get a free agent valuation</h2>
-			<p>Book an in-person valuation with a trusted local agent.</p>
-</div>
-		</div>
-	</div>
-	<div class="white-section">
-		<h2>Not a homeowner yet?</h2>
-		<p>It’s not easy, but it’s not impossible either. Get onto the property ladder faster with our expert advice and insider tips.</p>
-		<a href="https://www.scribd.com/document/632914076/a">Read our guide to buying a home</a>
-
-
-	</div>
+	</main>
+	<footer>
+		<p>&copy; 2023 Harta Europei. Toate drepturile rezervate.</p>
+		<p>Contact: Bruxelles, Belgia | info@hartaeuropei.com | +32 123 456 789</p>
+	</footer>
 </body>
 </html>
